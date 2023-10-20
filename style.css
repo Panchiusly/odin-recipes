@@ -1,0 +1,13 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    /* Why am I even using "em"? */
+    text-align: center;
+}
+
+.list {
+    font-size: 2rem;
+}
