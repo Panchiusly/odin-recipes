@@ -4,8 +4,12 @@ body {
 
 h1 {
     font-size: 3rem;
-    /* Why am I even using "em"? */
-    text-align: center;
+    /* Why am I even using "rem"? */
+    text-align: left;
+}
+
+.main-image {
+    height: 25rem;
 }
 
 .list {
