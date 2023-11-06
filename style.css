@@ -1,17 +1,35 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* I created this div because I had no idea where the frick align the image to the center */
+.image-container {
+    margin: 0 auto;
+    width: 400px;
 }
 
 h1 {
     font-size: 3rem;
     /* Why am I even using "rem"? */
-    text-align: left;
+    text-align: center;
 }
 
 .main-image {
-    height: 25rem;
+    height: 25em;
+    width: auto;
+    margin: 0 auto;
 }
 
 .list {
     font-size: 2rem;
+}
+
+.recipe {
+    background-color: black;
+    color: white;
 }
